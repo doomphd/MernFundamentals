@@ -15,7 +15,7 @@ const Planet = () => {
     .catch(err => {
       setPlanet(null)
     })
-  }, [])
+  }, [id])
   
   return( 
     <div>
